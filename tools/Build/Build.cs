@@ -10,7 +10,7 @@ return BuildRunner.Execute(args, build =>
 			{
 				GitLogin = gitLogin,
 				GitAuthor = new GitAuthorInfo("Faithlife Build Bot", "faithlifebuildbot@users.noreply.github.com"),
-				SourceCodeUrl = "https://github.com/Faithlife/RepoName/tree/master/src",
+				SourceCodeUrl = "https://github.com/Faithlife/Dumpe/tree/master/src",
 			},
 			PackageSettings = new DotNetPackageSettings
 			{
